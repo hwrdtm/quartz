@@ -1,3 +1,4 @@
 ---
-title: Practical Cryptography Course Notes
+title: Practical Cryptography
 ---
+Course notes for the [Practical Cryptography](https://cryptobook.nakov.com/) course.
