@@ -1,5 +1,5 @@
 ---
-title: simd
+title: Single Instruction, Multiple Data (SIMD)
 ---
 SIMD is a type of parallel processing, allowing machines to exploit data level parallelism, but not concurrency. There are simultaneous, parallel computations, but each unit performs the exact same instruction at any given moment, just with different data.
 

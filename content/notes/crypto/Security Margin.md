@@ -1,5 +1,5 @@
 ---
-title: security-margin
+title: Security Margin
 ---
 Security margin is the difference between the number of rounds in the complete implementation of the cipher and the maximum number of rounds that are known to be breakable using the best-known real-world attack.
 

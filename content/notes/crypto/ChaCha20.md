@@ -4,7 +4,7 @@ title: "ChaCha20"
 
 ChaCha20 is a stream cipher designed by Daniel J. Bernstein.  It is a refinement of the Salsa20 algorithm, and it uses a 256-bit key.
 
-ChaCha20 works great in general purpose CPUs and takes advantage of SIMD which exists on virtually all non-embedded CPUs.
+ChaCha20 works great in general purpose CPUs and takes advantage of [[notes/crypto/Single Instruction, Multiple Data (SIMD)|Single Instruction, Multiple Data (SIMD)]] which exists on virtually all non-embedded CPUs.
 
 ChaCha20 vs. AES
 - ChaCha20 is more efficient than AES in software-only implementations
