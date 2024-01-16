@@ -5,11 +5,15 @@ A DID Document is a user's extended profile that's connected to their DID. A DID
 
 **DID Documents describe how to interact with the DID subject and contains information that allows others to verify the authenticity and integrity of the DID's information. The document includes things like the DID subject's public keys, authentication and verification methods, as well as service endpoints, such as [DWNs](https://developer.tbd.website/docs/web5/learn/decentralized-web-nodes), that reference the locations of the subject’s data.**
 
+# Fields
+
+The only required field is the `id` field which corresponds to the DID. There may be other fields such as authentication material, encryption key material, and pointers to your DWN.
+
 # Retrieval
 
 Retrieving a DID document is sometimes referred to as "resolving a DID" to their mini-profile (DID Document).
 
-There are many ways to resolve DIDs. For example, you can use Web5's DID SDK to resolve via Web5's own implementation of a resolver, or you can make network requests to [DIF's Universal Resolver](https://dev.uniresolver.io/) outside of Web5.
+There are many ways to resolve DIDs to their DID documents. For example, you can use Web5's DID SDK to resolve via Web5's own implementation of a resolver, or you can make network requests to [DIF's Universal Resolver](https://dev.uniresolver.io/) outside of Web5.
 
 # Management
 
