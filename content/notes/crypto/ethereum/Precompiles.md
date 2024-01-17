@@ -9,7 +9,7 @@ This works by:
 - These precompiled contracts exist at special reserved addresses, for example at `0x01`.
 - When a smart contract calls a precompile through, say, `ecrecover`, it is actually calling a wrapper function that either calls `call` or `staticcall` under the hood, towards the corresponding contract address that contains elliptic curve recovery logic, and sending it the corresponding parameters.
 - For example, say I would like to add my own precompile to perform `secp256r1` verification at the address `0x10`, this is the function I would need to include in the relevant places for my contracts to be able to call `secp256r1Verify()`. So, the call flow goes as dapp / frontend -> my custom contract -> `secp256r1Verify` method -> ethereum client Golang code.
-```
+```go
 function secp256r1Verify(
 	bytes32 r,
 	bytes32 s,
@@ -36,6 +36,7 @@ function secp256r1Verify(
 }
 ```
 
-Resources
+# Resources
+
 - https://stack.optimism.io/docs/build/tutorials/new-precomp/#
 - https://docs.moonbeam.network/builders/pallets-precompiles/precompiles/eth-mainnet/#introduction

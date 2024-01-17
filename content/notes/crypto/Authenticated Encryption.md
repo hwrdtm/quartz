@@ -1,9 +1,6 @@
 ---
 title: "Authenticated Encryption"
 ---
-
-https://en.wikipedia.org/wiki/Authenticated_encryption
-
 Authenticated Encryption (AE) are forms of encryption which simultaneously assure the confidentiality and authenticity of data.
 
 ## Programming Interface
@@ -53,3 +50,6 @@ A MAC is produced based on the plaintext, then the plaintext and MAC are togethe
 
 
 
+# Resources
+
+https://en.wikipedia.org/wiki/Authenticated_encryption
