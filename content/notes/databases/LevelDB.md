@@ -5,4 +5,4 @@ LevelDB is a fast key-value storage library written at Google that provides an o
 
 LevelDB is used as the backend database for Google Chrome's IndexedDB and is one of the supported backends for Riak.
 
-One reason why LevelDB is fast is because it utilizes the LSM tree.
+One reason why LevelDB is fast is because it utilizes the [[notes/data-structures/Log-Structured Merge-Trees|LSM]] tree.
